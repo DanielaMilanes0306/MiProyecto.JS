@@ -352,7 +352,13 @@ function mostrarMenu() {
     console.log("10. Mostrar Pacientes");
     console.log("0. Salir");
 
-    const opcion = parseInt(prompt("Seleccione una opción: "));
+    
+    let menuconsola = [" 1. Agregar Raza"," 2. Mostrar Razas"," 3. Agregar Centro Veterinario"," 4. Mostrar Centros Veterinarios"," 5. Agregar Parámetro"," 6. Mostrar Parámetros"," 7. Agregar Examen"," 8. Mostrar Exámenes"," 9. Agregar Paciente ","10. Mostrar Pacientes"," 0. Salir "];
+    menuconsola.sort();
+    alert("Presione F12 para abrir consola. Presione el boton OK y seleccione una opción:  ")
+ 
+    const opcion = parseInt(prompt(menuconsola));
+
 
     switch (opcion) {
         case 1:
@@ -406,3 +412,4 @@ function main() {
 
 
 main();
+

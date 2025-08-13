@@ -164,16 +164,6 @@ let parametros = [];
 let examenes = [];
 let pacientes = [];
 
-
-/* function getUserInput(promptMessage) {
-    
-    console.log(promptMessage);
-    
-    
-    return "Sample Input"; 
-} */
-
-
 function agregarRaza() {
     console.log("Ingrese los datos para una nueva raza:");
     const raza = prompt("Raza: ");
